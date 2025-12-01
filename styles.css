@@ -75,6 +75,18 @@ body {
   min-height: auto;
   text-align: center;
 }
+
+#aifooter{
+  padding:1rem;
+  background-color: rgb(179, 117, 0);
+  min-height: auto;
+}
+
+#aifooter .container{
+  min-height: auto;
+  text-align: center;
+  
+}
 #subfooter {
   background-color: rgb(152, 99, 0);
   min-height: 10rem;
