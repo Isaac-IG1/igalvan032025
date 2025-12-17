@@ -38,6 +38,25 @@ body {
   background-color: rgb(240, 156, 0);
   padding: 1rem;
 }
+
+#pageheader nav ul {
+  background-color: orange;
+  margin: auto;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#pageheader nav ul li {
+  border: 2px solid rgb(198, 53, 0);
+  padding:1rem;
+  margin:2px;
+}
+
+#pageheader nav ul li:hover{
+  background-color: rgb(213, 138, 0);
+}
+
 #media {
   background-color: rgb(235, 153, 0);
   min-height: 10rem;
@@ -101,11 +120,15 @@ audio {
   margin: auto;
 }
 
-@media screen and (min-width:650px){
+@media screen and (min-width:850px){
+  #pageheader nav ul{margin-top: 2rem;}
+  #pageheader nav ul li {
+  display:inline-block;}
 #pagecontent{background-color: red;}
 }
 
 @media screen and (min-width:1000px){
-#pagecontent{background-color: purple;}
+
+  #pagecontent{background-color: purple;}
 }
 
