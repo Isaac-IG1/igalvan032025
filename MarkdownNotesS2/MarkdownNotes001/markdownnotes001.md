@@ -14,38 +14,32 @@
 
 ### 12/2
 
-## yo -
+## yo -pedí
 
-## tú -
+## tú - pediste
 
-## el -
+## el - pidió
 
-## nosotros -
+## nosotros -pedimos
 
-## ellos -
+## ellos - pideron
 
 ### 12/3
 
-## yo -
+1. Juan pidió un bistec en el resturante
 
-## tú -
+2. preferimos este resurante que resurante itajano
 
-## el -
-
-## nosotros -
-
-## ellos -
+3. prefiró las papas fritas
 
 ### 12/4
 
-## yo -
+1. El camarero repitió el pedido para confirmardo
 
-## tú -
+2. A las nueve y media el camarero les sivió la comida
 
-## el -
-
-## nosotros -
-
-## ellos -
+3. Pobre señor suárez.. porqué no. pideron los camarone?
 
 ### 12/5
+
+My week is going horriable because I had lots of assignments, and I probably won't do anything for this weekend.
