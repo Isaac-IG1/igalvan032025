@@ -1,10 +1,9 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
-
 body {
-  background-color: black;
+  background-color: rgb(228, 80, 9);
   color: rgb(0, 0, 0);
 }
 
@@ -17,7 +16,7 @@ body {
 }
 
 #pageheader {
-  background-color: rgb(255, 166, 0);
+  background-color: none;
   min-height: auto;
   padding: 0.25rem;
 }
@@ -28,14 +27,18 @@ body {
   height: 9.5rem;
   border: 1px solid none;
   background-size: cover;
+  transition: all 2;
+  margin: auto;
+  background-color: rgb(230, 83, 13);
 }
 #pageheader .container {
   min-height: auto;
+  background-color: rgb(228, 80, 9);
 }
 
 #pageheader nav {
   text-align: center;
-  background-color: rgb(240, 156, 0);
+  background-color: orange;
   padding: 1rem;
 }
 
@@ -48,45 +51,47 @@ body {
 }
 
 #pageheader nav ul li {
-  border: 2px solid rgb(198, 53, 0);
-  padding:1rem;
-  margin:2px;
+  border: 2px solid rgb(226, 37, 25);
+  padding: 1rem;
+  margin: 2px;
 }
 
-#pageheader nav ul li:hover{
-  background-color: rgb(213, 138, 0);
+#pageheader nav ul li:hover {
+  background-color: rgb(226, 37, 25);
 }
 
 #media {
-  background-color: rgb(235, 153, 0);
+  background-color: rgb(91, 38, 7);
   min-height: 10rem;
   padding: 1rem;
   background-image: url(Images/DragonBall.png);
   background-size: cover;
   aspect-ratio: 16 / 9;
 }
-#career {
-  background-color: rgb(211, 137, 0);
-  min-height: 10rem;
-  padding: 1rem;
-}
 #pagecontent {
-  background-color: rgb(222, 144, 0);
+  background-color: rgb(91, 38, 7);
+  min-height: 10rem;
+  padding: 1rem;
+  color: black;
+}
+#career {
+  background-color: rgb(89, 38, 7);
   min-height: 10rem;
   padding: 1rem;
 }
+
 #semester1 {
-  background-color: rgb(189, 123, 0);
+  background-color: rgb(89, 38, 7);
   min-height: 10rem;
   padding: 1rem;
 }
 #semester2 {
-  background-color: orange;
+  background-color: rgb(89, 38, 7);
   min-height: 10rem;
   padding: 1rem;
 }
 #pagefooter {
-  background-color: orange);
+  background-color: rgb(89, 38, 7);
   min-height: 10rem;
   padding: 1rem;
 }
@@ -95,40 +100,44 @@ body {
   text-align: center;
 }
 
-#aifooter{
-  padding:1rem;
-  background-color: rgb(179, 117, 0);
+#aifooter {
+  padding: 1rem;
+  background-color: rgb(89, 38, 7);
   min-height: auto;
 }
 
-#aifooter .container{
+#aifooter .container {
   min-height: auto;
   text-align: center;
-  
 }
 #subfooter {
-  background-color: rgb(152, 99, 0);
+  background-color: rgb(89, 38, 7);
   min-height: 10rem;
   padding: 1rem;
   text-align: center;
 }
 
 audio {
-  border: 5px solid red;
-  background-color:red;
+  border: 5px solid rgb(89, 38, 7);
+  background-color: rgb(89, 38, 7);
   display: block;
   margin: auto;
 }
 
-@media screen and (min-width:850px){
-  #pageheader nav ul{margin-top: 2rem;}
+@media screen and (min-width: 850px) {
+  #pageheader nav ul {
+    margin-top: 2rem;
+  }
   #pageheader nav ul li {
-  display:inline-block;}
-#pagecontent{background-color: red;}
+    display: inline-block;
+  }
+  #pagecontent {
+    background-color: rgb(89, 38, 7);
+  }
 }
 
-@media screen and (min-width:1000px){
-
-  #pagecontent{background-color: purple;}
+@media screen and (min-width: 1000px) {
+  #pagecontent {
+    background-color: rgb(89, 38, 7);
+  }
 }
-
