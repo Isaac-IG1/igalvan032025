@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Photo Gallery</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .gallery{
+            background-color: rgb(176, 0, 176);
+            border:4px solid black;
+            width:90%;
+            max-width:1280px;
+            margin: auto;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+        }
+        figure{
+            background-color: white;
+            width: 100%;
+            max-width: 250px;
+            margin: 1rem;
+            padding:1rem;
+        }
+        figcaption{
+            text-align: center;
+            color: #333;
+            padding: 5rem;
+        }
+        img{
+            width: 100%;
+            aspect-ratio: 1 / 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox Photo Gallery</h1>
+
+    <div class="gallery">
+
+    <figure>
+        <img src="https://picsum.photos/300/300/?random1" alt="Random Picsum Image">
+        <figcaption>Description</figcaption>
+    </figure>
+    <figure>
+        <img src="https://picsum.photos/300/300/?random2" alt="Random Picsum Image">
+        <figcaption>Description</figcaption>
+    </figure>
+    <figure>
+        <img src="https://picsum.photos/300/300/?random3" alt="Random Picsum Image">
+        <figcaption>Description</figcaption>
+    </figure>
+    <figure>
+        <img src="https://picsum.photos/300/300/?random4" alt="Random Picsum Image">
+        <figcaption>Description</figcaption>
+    </figure>
+    <figure>
+        <img src="https://picsum.photos/300/300/?random5" alt="Random Picsum Image">
+        <figcaption>Description</figcaption>
+    </figure>
+    <figure>
+        <img src="https://picsum.photos/300/300/?random6" alt="Random Picsum Image">
+        <figcaption>Description</figcaption>
+    </figure>
+</div>
+</body>
+</html>
