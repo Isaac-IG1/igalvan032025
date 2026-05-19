@@ -62,11 +62,13 @@ body {
 
 #media {
   background-color: rgb(91, 38, 7);
-  min-height: 10rem;
+  /* min-height: 10rem; */
   padding: 1rem;
   background-image: url(Images/DragonBall.png);
   background-size: cover;
-  aspect-ratio: 16 / 9;
+  /* aspect-ratio: 16 / 9; */
+  height: 70vh;
+  background-position: center;
 }
 #pagecontent {
   background-color: rgb(91, 38, 7);
@@ -89,6 +91,22 @@ body {
   background-color: rgb(89, 38, 7);
   min-height: 10rem;
   padding: 1rem;
+}
+#worksamples {
+  background-color: rgb(89, 38, 7);
+  min-height: 10rem;
+  padding: 1rem;
+}
+#certificates {
+  background-color: rgb(89, 38, 7);
+  min-height: 10rem;
+  padding: 1rem;
+}
+#certificates ul {
+  list-style-type: none;
+}
+#certificates i {
+  color: brown;
 }
 #pagefooter {
   background-color: rgb(89, 38, 7);
